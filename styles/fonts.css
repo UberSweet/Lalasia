@@ -1,0 +1,21 @@
+.white {
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 130%;
+}
+
+h5,
+.h5 {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.p3-18 {
+  font-family: 'Eudoxus Sans';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 180%;
+}

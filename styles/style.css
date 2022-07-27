@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+}
+
+body {
+  font-family: eudoxus sans;
+  margin: 0 auto;
+
+  color: #151411;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+
+  cursor: default;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #151411;
+}
+
+p {
+  color: #afadb5;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  margin: 100px 0 180px;
+}
+
+/* -- header -- */
+
+.navigation {
+  height: 120px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.navigation--list {
+  width: 461px;
+}
+
+.navigation--icons {
+  width: 84px;
+}
+
+.navigation--icons a {
+  height: 30px;
+}
+
+/* -- hero -- */
+
+.hero--content {
+  position: relative;
+  height: 864px;
+  background: url(/img/pic/hero--bg.png) no-repeat center bottom;
+}
+
+.headline:nth-child(odd) {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 760px;
+}
+
+.headline:nth-child(even) {
+  max-width: 500px;
+}
+
+.sub-title {
+  margin: 30px 0 50px;
+}
+
+/* -- edit -- */
+.hero--images {
+  position: absolute;
+  display: flex;
+  z-index: -1;
+  justify-content: space-between;
+  width: 969px;
+  top: 80px;
+}
+
+/* form */
+
+.form--search {
+  margin: 0 auto;
+  width: 810px;
+  height: 84px;
+}
+
+form {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 4px 80px rgba(175, 173, 181, 0.2);
+}
+
+input[type='search'] {
+  outline: none;
+  border: none;
+
+  padding: 5px 200px 5px 76px;
+
+  width: 100%;
+  height: 100%;
+
+  background: #fff;
+}
+
+button[type='submit'] {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+
+  background: #518581;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+
+  outline: none;
+  border: none;
+  width: 170px;
+}
+
+.form--ico {
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  bottom: 26px;
+}
+
+/* --  -- */
